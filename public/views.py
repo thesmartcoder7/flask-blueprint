@@ -1,5 +1,5 @@
 from flask import render_template
-from . import public
+from . import public # this gets the blueprint into the views
 
 
 @public.route('/')

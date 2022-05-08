@@ -2,6 +2,8 @@ from . import app
 from .public import public
 from . import views
 
+# after blueprint creation in the main blueprint file,
+# this next line registers it in the main
 app.register_blueprint(public)
 
 
