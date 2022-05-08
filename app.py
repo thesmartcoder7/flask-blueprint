@@ -1,6 +1,6 @@
-from . import app
-from .public import public
-from . import views
+from main import app
+from main.public import public
+from main import views
 
 # after blueprint creation in the main blueprint file,
 # this next line registers it in the main
