@@ -1,5 +1,6 @@
 import unittest
-from ..app.models import User
+from app.models import User
+
 
 class UserTest(unittest.TestCase):
     def setUp(self):
@@ -9,6 +10,6 @@ class UserTest(unittest.TestCase):
         self.assertTrue(isinstance(self.new_user, User))
 
 
-if __name__ == 'main':
-    print('tests are running here')
-    unittest.main()
+
+
+unittest.main()
